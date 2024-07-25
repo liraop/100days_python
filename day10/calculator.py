@@ -14,7 +14,6 @@ def times(n1,n2):
 def div(n1,n2):
     return n1/n2
 
-
 def calculator(num1 = 0, num2 = 0):
     answer = 0
     if num1 == 0:
@@ -43,4 +42,5 @@ def calculator(num1 = 0, num2 = 0):
     else:
         exit()
 
+print(art.logo)
 calculator()
